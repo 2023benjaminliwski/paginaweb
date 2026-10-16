@@ -1,0 +1,32 @@
+/* Importación de fuente por si falla el CDN */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+
+/* Estilos Generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* Transiciones suaves */
+a, button {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Personalización de barra de desplazamiento (Scrollbar) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #38bdf8;
+}
